@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&family=DM+Serif+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&family=DM+Serif+Text&display=swap');
+
+
+.site-header__container
+{   
+    
+    padding-top: 16px;
+    margin-left: 135px;
+    margin-right: 135px;
+    height: 48px;
+    }
+    @media screen and (max-width: 800px) {   
+        .site-header__container {
+        
+        margin-left: 35px;
+        margin-right: 35px;
+        }
+    }
+    /*header*/
+.site-header
+{
+    box-sizing: border-box;
+    background: #434CCC;    
+    width: 1440px;
+
+}
+@media screen and (max-width: 800px) {   
+    .site-header{
+    box-sizing: border-box;
+    background: #434CCC;    
+    width: 600px;
+
+}
+}
+.site-header__container
+{
+    
+    display: flex;
+    align-items: center;
+}
+.site-header__right
+{
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+.main-menu
+{
+
+    display: flex;
+    justify-content: space-around;
+    width: 324px;
+    height: 24px;
+    display: flex;
+    padding-inline-start: 0px;
+    /* Text */
+
+    font-family: 'DM Sans', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: right;
+
+/* Text_White */
+color: #FFFFFF;
+}
+@media screen and (max-width: 800px) {   
+    .main-menu{
+    
+    display: none;
+    height: 24px;
+    width: 1px;
+    }
+}       
+.site-header__left
+{
+    width: 102px;
+    height: 48px;
+}
+h3{
+    /* H3 */
+
+    font-family: DM Serif Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 48px;
+    width: 102px;
+    color: rgb(255 255 255);
+    margin: auto;
+
+}
+
+.main-menu__link{
+    
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: right;
+}
+
+li
+{
+    display: inline;
+    text-decoration: none;
+    padding: 0px 20px 20px 0px;
+    color:#FFFFFF;
+    
+}
+
+
+.button1{
+    align-items: center;
+    width: 170px;
+    height: 48px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #434CCC;
+    border: 2px solid #7fbb81;
+}
+.button1p:hover {
+    align-items: center;
+    width: 170px;
+    height: 48px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #434CCC;
+    border: 2px solid #4CAF50; /* Green */
+}
